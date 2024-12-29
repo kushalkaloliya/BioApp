@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: mediumslateblue;
+    font-family: "Gill Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 200px;
+    padding: 0px 25px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.search input{
+    width: 152px;
+    height: 22px;
+    border-radius: 1px;
+    /* padding: 1% 15px; */
+}
+
+.search button{
+    font-family: 'Lato', sans-serif;
+    /* padding: 1% 15px; */
+    width: 77px;
+    height: 24px;
+    font-weight: bolder;
+}
+

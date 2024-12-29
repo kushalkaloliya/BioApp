@@ -1,0 +1,16 @@
+table{
+    background-color: aqua;
+    color: brown;
+}
+
+h1{
+    background-color: blanchedalmond;
+    background-size: 100px 50px;
+}
+
+form{
+    background-color: antiquewhite;
+    color: black;
+    width: 170px;
+    height: 100px;
+}
